@@ -1,0 +1,35 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    container_name: recibos-app
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - FLASK_ENV=development
+      - GOOGLE_CREDENTIALS_JSON=/app/credentials/credentials_real.json
+      - GMAIL_MONITORED_EMAIL=${GMAIL_MONITORED_EMAIL}
+      - REPORTS_EMAIL=${REPORTS_EMAIL}
+      - TEST_EMAIL=${TEST_EMAIL}
+      - GMAIL_DELEGATED_USER=${GMAIL_DELEGATED_USER}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ZELLO_API_KEY=${ZELLO_API_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./credentials:/app/credentials:ro
+      - ./tokens:/app/tokens
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    networks:
+      - recibos_net
+
+networks:
+  recibos_net:
+    driver: bridge

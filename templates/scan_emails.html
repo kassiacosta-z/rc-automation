@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varredura de Emails - Sistema de Automação de Recibos</title>
+    <style>
+        :root {
+            --brand: #FF6F00;
+            --brand-700: #cc5900;
+            --black: #000000;
+            --gray-900: #2D2D2D;
+            --gray-100: #F5F5F5;
+            --white: #FFFFFF;
+            --card: #FFFFFF;
+            --stroke: #E7E7E7;
+            --muted: #8A8A8A;
+            --success-bg: #e8f7ee;
+            --success-fg: #1c7d4d;
+            --danger-bg: #fdecee;
+            --danger-fg: #b42318;
+            --warn-bg: #fff5e6;
+            --warn-fg: #9a6700;
+            --shadow-sm: 0 2px 10px rgba(0,0,0,.06);
+            --shadow-md: 0 10px 30px rgba(0,0,0,.08);
+            --radius: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial;
+            background: linear-gradient(180deg, #111 0%, #1b1b1b 100%);
+            color: var(--gray-900);
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.96));
+            backdrop-filter: blur(6px);
+            border: 1px solid var(--stroke);
+            border-radius: 18px;
+            box-shadow: var(--shadow-md);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--brand) 0%, var(--brand-700) 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--gray-900);
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--stroke);
+            border-radius: var(--radius);
+            font-size: 16px;
+            transition: border-color 0.2s;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--brand);
+        }
+
+        /* Provider Selection Styles */
+        .provider-selection {
+            background: var(--gray-100);
+            padding: 20px;
+            border-radius: var(--radius);
+            margin-bottom: 24px;
+        }
+
+        .provider-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-top: 12px;
+        }
+
+        .provider-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            background: white;
+            border-radius: 8px;
+            border: 2px solid var(--stroke);
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .provider-option:hover {
+            border-color: var(--brand);
+            background: rgba(255, 111, 0, 0.05);
+        }
+
+        .provider-option input[type="checkbox"] {
+            width: auto;
+            margin: 0;
+        }
+
+        .provider-option.checked {
+            border-color: var(--brand);
+            background: rgba(255, 111, 0, 0.1);
+        }
+
+        /* Progress Bar Styles */
+        .progress-container {
+            background: var(--gray-100);
+            padding: 20px;
+            border-radius: var(--radius);
+            margin: 20px 0;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--stroke);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 12px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--brand), var(--brand-700));
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            font-weight: 600;
+            color: var(--gray-900);
+        }
+
+        .progress-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 12px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid var(--stroke);
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--brand);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* History Styles */
+        .history-section {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid var(--stroke);
+        }
+
+        .history-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background: white;
+            border-radius: var(--radius);
+            margin-bottom: 12px;
+            border: 1px solid var(--stroke);
+        }
+
+        .history-info h4 {
+            margin: 0 0 4px 0;
+            color: var(--gray-900);
+        }
+
+        .history-info p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .history-stats {
+            text-align: right;
+        }
+
+        .history-count {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--brand);
+        }
+
+        .history-date {
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        /* Disabled state */
+        .form-disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 8px;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: auto;
+            margin: 0;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, var(--brand) 0%, var(--brand-700) 100%);
+            color: white;
+            padding: 14px 28px;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .alert {
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: var(--radius);
+            font-weight: 500;
+        }
+
+        .alert-success {
+            background: var(--success-bg);
+            color: var(--success-fg);
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-error {
+            background: var(--danger-bg);
+            color: var(--danger-fg);
+            border: 1px solid #f5c6cb;
+        }
+
+        .results-section {
+            background: var(--gray-100);
+            padding: 20px;
+            border-radius: var(--radius);
+            margin-top: 30px;
+        }
+
+        .results-section h3 {
+            margin-bottom: 16px;
+            color: var(--gray-900);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 16px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--brand);
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--muted);
+        }
+
+        .emails-list {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .email-item {
+            padding: 16px;
+            border-bottom: 1px solid var(--stroke);
+        }
+
+        .email-item:last-child {
+            border-bottom: none;
+        }
+
+        .email-subject {
+            font-weight: 600;
+            color: var(--gray-900);
+            margin-bottom: 8px;
+        }
+
+        .email-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 8px;
+            font-size: 14px;
+            color: var(--muted);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--brand);
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 20px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--brand-700);
+        }
+
+        .icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="{{ url_for('static', filename='icon_recibos.png') }}" alt="Ícone" class="icon">
+            <h1>📧 Varredura de Emails</h1>
+            <p>Sistema de Automação de Recibos - Busca por recibos no domínio @zello.tec.br</p>
+        </div>
+        
+        <div class="content">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            
+            <!-- Seleção de Provedores -->
+            <div class="provider-selection">
+                <label>🤖 Provedores para Varrer:</label>
+                <div class="provider-grid">
+                    <div class="provider-option" onclick="toggleProvider(this)">
+                        <input type="checkbox" name="providers" value="openai" checked>
+                        <span>OpenAI</span>
+                    </div>
+                    <div class="provider-option" onclick="toggleProvider(this)">
+                        <input type="checkbox" name="providers" value="anthropic" checked>
+                        <span>Anthropic</span>
+                    </div>
+                    <div class="provider-option" onclick="toggleProvider(this)">
+                        <input type="checkbox" name="providers" value="cursor" checked>
+                        <span>Cursor</span>
+                    </div>
+                    <div class="provider-option" onclick="toggleProvider(this)">
+                        <input type="checkbox" name="providers" value="manus" checked>
+                        <span>Manus</span>
+                    </div>
+                    <div class="provider-option" onclick="toggleProvider(this)">
+                        <input type="checkbox" name="providers" value="n8n" checked>
+                        <span>N8N</span>
+                    </div>
+                </div>
+                <small style="color: var(--muted); margin-top: 8px; display: block;">
+                    Selecione quais provedores de IA varrer para recibos
+                </small>
+            </div>
+
+            <!-- Barra de Progresso -->
+            <div class="progress-container" id="progressContainer" style="display: none;">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText">Iniciando varredura...</div>
+                <div class="progress-stats" id="progressStats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="statPages">0</div>
+                        <div class="stat-label">Páginas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="statMessages">0</div>
+                        <div class="stat-label">Emails</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="statReceipts">0</div>
+                        <div class="stat-label">Recibos</div>
+                    </div>
+                </div>
+            </div>
+
+            <form method="POST" id="scanForm">
+                <div class="form-group">
+                    <label for="days_back">📅 Período de Varredura:</label>
+                    <select id="days_back" name="days_back">
+                        <option value="1">Último dia</option>
+                        <option value="3">Últimos 3 dias</option>
+                        <option value="7" selected>Última semana</option>
+                        <option value="15">Últimas 2 semanas</option>
+                        <option value="30">Último mês</option>
+                        <option value="90">Últimos 3 meses</option>
+                        <option value="365">Último ano</option>
+                    </select>
+                    <small style="color: var(--muted); margin-top: 4px; display: block;">
+                        Período para buscar emails de recibos
+                    </small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="target_email">📧 Email de Destino:</label>
+                    <input type="email" id="target_email" name="target_email" value="contasapagar@zello.tec.br" required>
+                    <small style="color: var(--muted); margin-top: 4px; display: block;">
+                        Email para onde será enviado o relatório
+                    </small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="max_results">📊 Limite de Resultados:</label>
+                    <select id="max_results" name="max_results">
+                        <option value="">Sem limite</option>
+                        <option value="100">100 recibos</option>
+                        <option value="500" selected>500 recibos</option>
+                        <option value="1000">1.000 recibos</option>
+                        <option value="5000">5.000 recibos</option>
+                    </select>
+                    <small style="color: var(--muted); margin-top: 4px; display: block;">
+                        Limite máximo de recibos para processar (recomendado: 500)
+                    </small>
+                </div>
+                
+                <div class="form-group">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="send_email" name="send_email" value="true" checked>
+                        <label for="send_email">📤 Enviar relatório por email automaticamente</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="use_pagination" name="use_pagination" value="true" checked>
+                        <label for="use_pagination">🔄 Usar paginação automática (recomendado)</label>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 12px; margin-top: 20px;">
+                    <button type="submit" class="btn" id="scanButton">
+                        🔍 Iniciar Varredura
+                    </button>
+                    <button type="button" class="btn" id="debugButton" style="background: #6c757d; border-color: #6c757d;">
+                        🔧 Debug Detalhado
+                    </button>
+                </div>
+            </form>
+            
+            {% if results %}
+            <div class="results-section">
+                <h3>📊 Resultados da Varredura</h3>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">{{ results.total_emails }}</div>
+                        <div class="stat-label">Recibos Encontrados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">{{ results.total_accounts }}</div>
+                        <div class="stat-label">Contas Verificadas</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">{{ results.days_scanned }}</div>
+                        <div class="stat-label">Dias Verificados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">{{ results.timestamp.split(' ')[1] }}</div>
+                        <div class="stat-label">Horário da Varredura</div>
+                    </div>
+                </div>
+                
+                {% if results.total_emails > 0 %}
+                <h4 style="margin-bottom: 16px; color: var(--gray-900);">🧾 Recibos Encontrados:</h4>
+                <div class="emails-list">
+                    {% for account, emails in results.emails_found.items() %}
+                        {% for email in emails %}
+                        <div class="email-item">
+                            <div class="email-subject">{{ email.subject }}</div>
+                            <div class="email-details">
+                                <div><strong>Serviço:</strong> {{ email.service }}</div>
+                                <div><strong>Valor:</strong> {{ email.amount }}</div>
+                                <div><strong>Data:</strong> {{ email.date }}</div>
+                                <div><strong>De:</strong> {{ email.from }}</div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p style="text-align: center; color: var(--muted); padding: 20px;">
+                    Nenhum recibo encontrado no período especificado.
+                </p>
+                {% endif %}
+            </div>
+            {% endif %}
+            
+            <!-- Histórico de Varreduras -->
+            <div class="history-section">
+                <h3>📋 Histórico de Varreduras</h3>
+                <div id="historyList">
+                    <div class="history-item">
+                        <div class="history-info">
+                            <h4>Varredura Completa</h4>
+                            <p>Últimos 30 dias - Todos os provedores</p>
+                        </div>
+                        <div class="history-stats">
+                            <div class="history-count">127</div>
+                            <div class="history-date">Hoje, 14:30</div>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                        <div class="history-info">
+                            <h4>Varredura OpenAI</h4>
+                            <p>Última semana - Apenas OpenAI</p>
+                        </div>
+                        <div class="history-stats">
+                            <div class="history-count">23</div>
+                            <div class="history-date">Ontem, 09:15</div>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                        <div class="history-info">
+                            <h4>Varredura Rápida</h4>
+                            <p>Último dia - Todos os provedores</p>
+                        </div>
+                        <div class="history-stats">
+                            <div class="history-count">5</div>
+                            <div class="history-date">2 dias atrás</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="/" class="back-link">
+                ← Voltar ao Sistema Principal
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Estado da varredura
+        let isScanning = false;
+        let progressInterval = null;
+
+        // Toggle de provedores
+        function toggleProvider(element) {
+            const checkbox = element.querySelector('input[type="checkbox"]');
+            checkbox.checked = !checkbox.checked;
+            
+            if (checkbox.checked) {
+                element.classList.add('checked');
+            } else {
+                element.classList.remove('checked');
+            }
+        }
+
+        // Inicializar estado dos provedores
+        document.addEventListener('DOMContentLoaded', function() {
+            const providerOptions = document.querySelectorAll('.provider-option');
+            providerOptions.forEach(option => {
+                const checkbox = option.querySelector('input[type="checkbox"]');
+                if (checkbox.checked) {
+                    option.classList.add('checked');
+                }
+            });
+        });
+
+        // Submissão do formulário
+        document.getElementById('scanForm').addEventListener('submit', function(e) {
+            if (isScanning) {
+                e.preventDefault();
+                return;
+            }
+
+            // Verificar se pelo menos um provedor está selecionado
+            const selectedProviders = document.querySelectorAll('input[name="providers"]:checked');
+            if (selectedProviders.length === 0) {
+                alert('Selecione pelo menos um provedor para varrer.');
+                e.preventDefault();
+                return;
+            }
+
+            // Iniciar varredura
+            startScan();
+        });
+
+        function startScan() {
+            isScanning = true;
+            
+            // Desabilitar formulário
+            document.getElementById('scanForm').classList.add('form-disabled');
+            document.getElementById('scanButton').textContent = '⏳ Varredura em Andamento...';
+            document.getElementById('scanButton').disabled = true;
+            
+            // Mostrar barra de progresso
+            document.getElementById('progressContainer').style.display = 'block';
+            
+            // Iniciar polling de progresso
+            startProgressPolling();
+        }
+
+        function startProgressPolling() {
+            progressInterval = setInterval(updateProgress, 1000);
+        }
+
+        function updateProgress() {
+            fetch('/api/scan-progress')
+                .then(response => response.json())
+                .then(data => {
+                    updateProgressUI(data);
+                    
+                    if (data.status === 'completed' || data.status === 'error') {
+                        stopProgressPolling();
+                        if (data.status === 'completed') {
+                            location.reload(); // Recarregar para mostrar resultados
+                        }
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro ao atualizar progresso:', error);
+                });
+        }
+
+        function updateProgressUI(data) {
+            // Atualizar barra de progresso
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+            
+            if (data.total_messages > 0) {
+                const percentage = Math.min((data.current_message || 0) / data.total_messages * 100, 100);
+                progressFill.style.width = percentage + '%';
+            }
+            
+            progressText.textContent = data.message || 'Processando...';
+            
+            // Atualizar estatísticas
+            document.getElementById('statPages').textContent = data.page_count || 0;
+            document.getElementById('statMessages').textContent = data.total_messages || 0;
+            document.getElementById('statReceipts').textContent = data.total_processed || 0;
+        }
+
+        function stopProgressPolling() {
+            if (progressInterval) {
+                clearInterval(progressInterval);
+                progressInterval = null;
+            }
+            
+            // Reabilitar formulário
+            isScanning = false;
+            document.getElementById('scanForm').classList.remove('form-disabled');
+            document.getElementById('scanButton').textContent = '🔍 Iniciar Varredura';
+            document.getElementById('scanButton').disabled = false;
+        }
+
+        // Cancelar varredura (se necessário)
+        function cancelScan() {
+            if (confirm('Deseja cancelar a varredura em andamento?')) {
+                stopProgressPolling();
+                document.getElementById('progressContainer').style.display = 'none';
+            }
+        }
+
+        // Debug detalhado
+        document.getElementById('debugButton').addEventListener('click', function() {
+            if (isScanning) {
+                alert('Aguarde a varredura atual terminar antes de executar o debug.');
+                return;
+            }
+
+            const daysBack = document.getElementById('days_back').value;
+            
+            // Mostrar loading
+            this.textContent = '⏳ Executando Debug...';
+            this.disabled = true;
+            
+            fetch('/api/debug/scan', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    days_back: parseInt(daysBack)
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Mostrar resultados do debug
+                showDebugResults(data);
+            })
+            .catch(error => {
+                console.error('Erro no debug:', error);
+                alert('Erro ao executar debug: ' + error.message);
+            })
+            .finally(() => {
+                // Restaurar botão
+                this.textContent = '🔧 Debug Detalhado';
+                this.disabled = false;
+            });
+        });
+
+        function showDebugResults(data) {
+            const debugInfo = data.debug_info || {};
+            const steps = debugInfo.steps || [];
+            
+            let debugHtml = `
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; font-family: monospace; font-size: 14px;">
+                    <h4 style="color: #495057; margin-top: 0;">🔧 Debug Detalhado</h4>
+                    <p><strong>Email Monitorado:</strong> ${debugInfo.monitored_email || 'N/A'}</p>
+                    <p><strong>Período:</strong> ${debugInfo.days_back || 'N/A'} dias</p>
+                    <p><strong>GmailService:</strong> ${debugInfo.gmail_service_available ? '✅ Disponível' : '❌ Indisponível'}</p>
+                    
+                    <h5 style="color: #495057; margin-top: 20px;">📋 Passos Executados:</h5>
+            `;
+            
+            steps.forEach((step, index) => {
+                const status = step.success ? '✅' : '❌';
+                debugHtml += `
+                    <div style="margin: 10px 0; padding: 10px; background: ${step.success ? '#d4edda' : '#f8d7da'}; border-radius: 4px;">
+                        <strong>${status} Passo ${index + 1}: ${step.step}</strong>
+                        ${step.error ? `<br><span style="color: #721c24;">Erro: ${step.error}</span>` : ''}
+                        ${step.query ? `<br><span style="color: #155724;">Query: ${step.query}</span>` : ''}
+                        ${step.messages_found !== undefined ? `<br><span style="color: #155724;">Mensagens encontradas: ${step.messages_found}</span>` : ''}
+                        ${step.processed_count !== undefined ? `<br><span style="color: #155724;">Processadas: ${step.processed_count}</span>` : ''}
+                    </div>
+                `;
+            });
+            
+            debugHtml += '</div>';
+            
+            // Inserir antes do histórico
+            const historySection = document.querySelector('.history-section');
+            if (historySection) {
+                historySection.insertAdjacentHTML('beforebegin', debugHtml);
+            } else {
+                // Se não houver histórico, inserir no final do container
+                const container = document.querySelector('.container');
+                if (container) {
+                    container.insertAdjacentHTML('beforeend', debugHtml);
+                }
+            }
+            
+            // Scroll para o debug
+            const debugElement = document.querySelector('[style*="background: #f8f9fa"]');
+            if (debugElement) {
+                debugElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
+

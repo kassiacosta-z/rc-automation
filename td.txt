@@ -1,0 +1,1227 @@
+<td id=":17s" class="I5"><form id=":17p" action="" method="POST" enctype="multipart/form-data" accept-charset="utf-8" class="bAs"><div id=":198" style="height: 52px;"></div><div id=":197" style="left: 389px; width: 648px; top: 119px; clip: rect(-20px, 665px, 925px, -65px);" class="azY"><div id=":199" class="azX" style=""></div><table class="IG" role="presentation"><tbody><tr><td class="HQ"><div id=":192" class="J-JN-M-I J-J5-Ji Un L3" role="button" tabindex="1" aria-haspopup="true" aria-expanded="false" data-tooltip="Tipo de resposta" aria-label="Tipo de resposta" style="user-select: none;"><div class="J-J5-Ji J-JN-M-I-Jm"><img class="mI" id=":191" src="images/cleardot.gif" alt=""></div><div class="J-J5-Ji J-JN-M-I-JG"></div></div></td><td class="Iy"><div class="fX aiL" id=":1ag" style=""><table class="GS" tabindex="-1"><tbody class="bze"><tr id=":17w" class="bzf"><td class="ok"><div class="o1"><span id=":17y" class="gO aQY" data-tooltip="Selecionar contatos" aria-label="Para: selecione contatos" role="link" tabindex="1">Para</span></div></td><td class="eV"><div id=":17z" class="oj"><div class="wO nr l1"><div id=":17m" name="to" class="anm" aria-label="Para" style="width: 423px;"><div class="aUy"><div tabindex="1" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div tabindex="0" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div class="afp"><div peoplekit-id="P3anae" class="aU4VQc YxcKdf" jslog="64611; track:impression; cid:peoplekitweb" pkd-ps-state="2"><div class="aGb mS5Pff"><div peoplekit-id="kE8AEc"><div class="afx" peoplekit-id="pQPeT" tabindex="-1" role="listbox" aria-multiselectable="true" aria-orientation="horizontal" aria-label="Campo de pesquisa"><div class="aH9" style="height: 36px; flex-basis: 48px;" role="presentation"><input id=":1hs" class="agP aFw" peoplekit-id="BbVjBd" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Destinatários" aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false" placeholder="" size="0" type="text" role="combobox" aria-owns=":1ht" aria-controls=":1ht" aria-description="None selecionados"><span class="aIa aFw" peoplekit-id="nl4wje"></span></div></div></div></div></div></div><div tabindex="0" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div></div></div><div class="aA6"><span><div tabindex="1" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div tabindex="1" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><span class="baT"><span id=":1b9" class="aB gQ pE" role="link" tabindex="1" data-tooltip="Adicionar destinatários Cc ‪(Ctrl-Shift-C)‬" aria-label="Adicionar destinatários Cc ‪(Ctrl-Shift-C)‬" style="user-select: none;">Cc</span><span id=":1ba" class="aB  gQ pB" role="link" tabindex="1" data-tooltip="Adicionar destinatários Cco ‪(Ctrl-Shift-B)‬" aria-label="Adicionar destinatários Cco ‪(Ctrl-Shift-B)‬" style="user-select: none;">Cco</span><span id=":19f" role="button" tabindex="1" class="Sz SB SA" data-tooltip="Abrir em um pop-up" aria-label="Abrir em um pop-up"></span></span><div tabindex="1" class="rWDq2b" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div></span></div></div></div></td></tr><tr id=":1ax" style="display:none" class="bzf"><td class="ok"><span id=":1ay" class="gO aQY" data-tooltip="Selecionar contatos" aria-label="Cc: selecione contatos" role="link" tabindex="1">Cc</span></td><td class="eV"><div id=":1az" class="oj"><div class="wO nr"><div id=":17l" name="cc" class="anm" aria-label="Cc"><div class="aUy"><div tabindex="1" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div tabindex="0" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div class="afp"></div><div tabindex="0" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div></div></div><div class="aA6"></div></div></div></td></tr><tr id=":1b3" style="display:none" class="bzf"><td class="ok"><span id=":1b4" class="gO aQY" data-tooltip="Selecionar contatos" aria-label="Cco: selecione contatos" role="link" tabindex="1">Cco</span></td><td class="eV"><div id=":1b5" class="oj"><div class="wO nr"><div id=":17k" name="bcc" class="anm" aria-label="Cco"><div class="aUy"><div tabindex="1" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div tabindex="0" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div class="afp"></div><div tabindex="0" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div></div></div><div class="aA6"></div></div></div></td></tr><tr id=":1b2" style="display:none" class="bzf"><td></td><td class="bzg"><div id=":1ei" class="az7" style="user-select: none;"><div class="kOWr9d" style="user-select: none;"><div tabindex="0" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div class="chLDvc" style="user-select: none;"><div peoplekit-id="wIbLec" class="aU4VQc YxcKdf" jslog="128054; track:impression; cid:peoplekitweb"><div class="bFF mS5Pff" peoplekit-id="cT1Yee"><div peoplekit-id="mABEw" style="display: none;"><div peoplekit-id="uGenSe" class="aq9 aFw"><div class="afx" peoplekit-id="pQPeT" tabindex="0" role="listbox" aria-multiselectable="false" aria-orientation="horizontal" aria-label="Sugestões de possíveis adições"></div></div></div><div peoplekit-id="f7ivTb" style="display: none;"><div class="afx" peoplekit-id="pQPeT" tabindex="0" role="listbox" aria-multiselectable="false" aria-orientation="vertical" aria-label="Sugestões de possíveis substituições"></div></div></div></div></div><div tabindex="0" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div></div></div><div id=":181" class="ow"></div></td></tr></tbody></table></div><div id=":17t" class="aoD hl" tabindex="1" style="display: none;"><div id=":19b" class="oL aDm">Destinatários</div><div id=":17q" class="bgW"><span id=":19e" role="button" tabindex="1" class="Sz SB " data-tooltip="Abrir em um pop-up" aria-label="Abrir em um pop-up"></span><div id=":18u" class="zB"><span id=":18v" class="oG"></span></div></div></div><div id=":183" class="aoD az6" style="display: none"><input name="subjectbox" id=":184" class="aoT" autocomplete="off" spellcheck="true" tabindex="1" placeholder="Assunto" aria-label="Assunto"><div id=":182" class="" style="display: none"></div></div><div id=":1at" style="display:none"></div></td></tr></tbody></table></div><input type="hidden" name="composeid" value="3"><input type="hidden" name="from" id=":17o" value=""><input type="hidden" name="subject" id=":17j" value="Fwd: Your receipt from Anthropic, PBC #2392-9597-2984"><input type="hidden" name="draft" id=":17g" value="#msg-a:r-4100564246756147976"><input type="hidden" name="rt" id=":17f" value="#thread-f:1843524128132080026"><input type="hidden" name="lts" id=":17e" value="1995836d582ca19a"><input type="hidden" name="bwd" id=":17d" value=""><input type="hidden" name="rm" id=":17c" value="#msg-f:1843524128132080026"><input type="hidden" name="ac" id=":177" value=""><input type="hidden" name="adc" id=":176" value=""><input type="hidden" name="ishtml" id=":17b" value="0"><input type="hidden" name="body" id=":17i" value=""><input type="hidden" name="pte" id="undefined" value=""><input type="hidden" name="pti" id="undefined" value=""><input type="hidden" name="bpfs" id=":19m" value=""><input type="hidden" name="uet" id=":17r" value=""><input type="hidden" name="pbgt" id=":19k" value=""><input type="hidden" name="pbgas" id=":19n" value=""><input type="hidden" name="pbgir" id=":19j" value=""><input name="readreceipt" type="hidden" id=":1d1" value="0"><div id=":1b6" style="display:none"></div><div id=":1a8" style="display:none"></div><div id=":19a" style="display:none"></div></form><div id=":1d5" class="a8i" style="display:none" aria-live="polite"></div><div id=":1d3" class="a8i" style="display:none" aria-live="polite"></div><table class="iN"><tbody><tr><td id=":1ah" class="GQ"><div class="aRZ aSe" style="display:none"><div class="sq bjE aJs" data-loadingmessage="Carregando…" jscontroller="qAKInc" jsaction="animationend:kWijWc;dyRcpb:dyRcpb" data-active="true"><div class="so" aria-live="polite" jsname="vyyg5">Carregando…</div><div jsname="Hxlbvc" class="sr"><div class="ss sj aIE"><div class="sh sn"><div class="sg GOJTSe"></div></div><div class="sm"><div class="sg GOJTSe"></div></div><div class="sh sp"><div class="sg GOJTSe"></div></div></div><div class="ss sl aIG"><div class="sh sn"><div class="sg GOJTSe"></div></div><div class="sm"><div class="sg GOJTSe"></div></div><div class="sh sp"><div class="sg GOJTSe"></div></div></div><div class="ss sk aIF"><div class="sh sn"><div class="sg GOJTSe"></div></div><div class="sm"><div class="sg GOJTSe"></div></div><div class="sh sp"><div class="sg GOJTSe"></div></div></div><div class="ss si aID"><div class="sh sn"><div class="sg GOJTSe"></div></div><div class="sm"><div class="sg GOJTSe"></div></div><div class="sh sp"><div class="sg GOJTSe"></div></div></div></div></div></div><div id=":1af" class="qz aiL"><div class="G9" style="display:none;">Carregando...</div><div id=":1ad" class="et"><div tabindex="1" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div tabindex="1" style="background-color: transparent; width: 1px; height: 1px; position: absolute;"></div><div id=":18y" class="ZyRVue"><div><div class="eJ"><table cellpadding="0" class="cf"><tbody><tr><td class="fw"><img class="fB" src="//ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif" alt=""><span id=":1cl" class="em">Carregando rich text...</span><span id=":1cj" class="aaw">&nbsp;</span><span id=":1ck" class="eo el">«&nbsp;Texto&nbsp;sem formatação</span></td><td class="fA"><span id=":1cf" class="eu" role="link" tabindex="2">Verificar ortografia</span><span id=":1ce" class="wX" role="menu" tabindex="2"><img class="wY" src="images/cleardot.gif" title="Alterar idioma" alt="Alterar idioma"></span>&nbsp;<span id=":1cd" class="eu ei" role="link" tabindex="2">Reiniciar edição</span></td></tr></tbody></table><div id="undefined" role="alert" class="fy ei"></div></div><table cellpadding="0" class="cf An" id="undefined"><tbody><tr><td class="Aq">&nbsp;</td><td class="Ap"><div id="undefined" class="Ar As"><div class="At"><textarea id=":1cg" class="Ak aiL" style="" aria-label="Corpo da mensagem" spellcheck="true" itacorner="6,7:1,1,0,0" tabindex="1" form="nosend"></textarea></div></div><div id=":1ci" class="Ar Au" style="display: block;"><div class="aO7"><div id=":1cm" class="Am aiL aO9 Al editable LW-avf tS-tW" hidefocus="true" aria-label="Corpo da mensagem" writingsuggestions="false" g_editable="true" role="textbox" aria-multiline="true" contenteditable="true" tabindex="1" style="direction: ltr; min-height: 85px;" spellcheck="false" jsaction="utQure:.CLIENT;tkRwsc:.CLIENT;input:.CLIENT;uLRpAf:.CLIENT;yGfh2c:.CLIENT" aria-owns=":1hu" aria-controls=":1hu"><br><br><div class="gmail_quote gmail_quote_container"><div dir="ltr" class="gmail_attr">---------- Forwarded message ---------<br>De: <strong class="gmail_sendername" dir="auto">Anthropic, PBC</strong> <span dir="auto">&lt;invoice+statements@mail.anthropic.com&gt;</span><br>Date: qua., 17 de set. de 2025 às 12:06<br>Subject: Your receipt from Anthropic, PBC #2392-9597-2984<br>To:  &lt;iazello@zello.tec.br&gt;<br></div><br><br><div class="msg-1996992477474539043"><u></u>
+
+  
+    
+  
+  <div style="border:0;margin:0;padding:0;min-width:100%;width:100%">
+
+
+    
+    <table bgcolor="#f0f0eb" border="0" cellpadding="0" cellspacing="0" width="100%" style="border:0;margin:0;padding:0">
+      <tbody>
+        <tr>
+          <td style="font-size:16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>
+
+            
+            <table class="m_-1996992477474539043st-Wrapper" align="center" border="0" cellpadding="0" cellspacing="0" style="width:480px;min-width:480px;max-width:480px">
+              <tbody>
+                <tr>
+                  <td>
+                    
+
+  
+
+  
+<table border="0" cellpadding="0" cellspacing="0" width="480" style="min-width:480px">
+  <tbody>
+    <tr>
+      <td align="center" height="0" style="border:0;margin:0;padding:0;color:#ffffff;display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden">
+        <span style="color:#ffffff;text-decoration:none">
+
+          
+      Your receipt from Anthropic, PBC #2392-9597-2984
+  
+
+          
+           ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+           ͏  ͏  ͏  ͏  ͏  ͏
+          ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+          ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+          ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+          ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+          ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+          &nbsp;
+
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="58" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <table cellpadding="0" cellspacing="0">
+    <tbody>
+      
+        <tr>
+    
+          <td valign="middle" height="32" style="border:0;border-collapse:collapse;margin:0;padding:0;height:32px">
+    
+            <a style="border:0;margin:0;padding:0;text-decoration:none;outline:0" href="https://www.anthropic.com/" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.anthropic.com/&amp;source=gmail&amp;ust=1759515314367000&amp;usg=AOvVaw08dihx3i-jpafwl30809Cg">
+        
+              
+  
+  <div>
+    <div style="border-radius:100%;width:32px;height:32px;text-align:center;background-color:white;background-position:center;background:url('https://ci3.googleusercontent.com/meips/ADKq_NaqsyBjGpJsNRl4zBaa-81BIHFWqe3fsURectvFJW2mWLtImgZ9RVr07Inzo9ANytIYEZH6c9EKkzJzTa4gbuuONEkqpyOqm_ai64xWhVXhgIyLl5CO8d93TGysJ4qr39BwuQM8N0bEn5MyLHHrlE_nPxaKckWRHlE6ei3ODeZ7znXQ-O94OZt4jw=s0-d-e1-ft#https://files.stripe.com/files/MDB8YWNjdF8xTUV4UTlCaklRclJRbnV4fGZfbGl2ZV9EVDJoSFI3YUNXZ005ZXNHWmkwZkR5YmU0075kiDhdX');background-origin:border-box;background-size:contain;background-position:center;background-repeat:no-repeat;line-height:100%">
+    <div>
+  <div>
+   
+</div>
+</div>
+</div>
+</div>
+            
+      </a>
+
+          
+  </td>
+          <td style="border:0;border-collapse:collapse;margin:0;padding:0;width:12px">
+    
+            <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none">
+              &nbsp;
+            </span>
+          
+  </td>
+          <td valign="middle" style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+            <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;font-weight:500;color:rgb(0,0,0);font-size:16px">
+              Anthropic, PBC
+            </span>
+          
+  </td>
+        
+  </tr>
+  
+    </tbody>
+  </table>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="32" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="">
+    
+        
+    <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%;width:482px;border-radius:12px;background-color:#e3e8ee;padding:1px">
+    
+        
+      <table cellpadding="0" cellspacing="0" style="width:100%;background-color:#ffffff;border-radius:12px">
+    <tbody>
+      
+        <tr>
+    
+          <td style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="32" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+            <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+              <tr>
+    
+
+                  <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+                <td style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+                  
+
+    <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%;padding-bottom:2px">
+    
+        
+          <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#7a7a7a;font-size:14px;line-height:20px;font-weight:500">
+            Receipt from Anthropic, PBC
+          
+        </span>
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%;padding-bottom:2px">
+    
+        
+          <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:36px;line-height:40px;font-weight:600">
+            R$550.00
+          
+        </span>
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+        
+          
+        <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#7a7a7a;font-size:14px;line-height:24px;font-weight:500">
+          Paid September 17, 2025
+        </span>
+
+    
+        
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+      <tr>
+    
+    <td colspan="1" height="16" style="border:0;border-collapse:collapse;margin:0;padding:0;height:16px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+    <tr>
+    
+
+      <td height="1" style="border:0;border-collapse:collapse;margin:0;padding:0;height:1px;font-size:1px;background-color:#ebebeb;line-height:1px">
+    
+        &nbsp;
+      
+  </td>
+
+    
+  </tr>
+
+      <tr>
+    
+    <td colspan="1" height="12" style="border:0;border-collapse:collapse;margin:0;padding:0;height:12px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+  
+    </tbody>
+  </table>
+
+      
+  </td>
+
+      <td style="border:0;border-collapse:collapse;margin:0;padding:0;width:76px;max-width:76px">
+    
+        <img src="https://ci3.googleusercontent.com/meips/ADKq_Nb0PIKp4BW7Q9dGZWAbhhehqH1C7jSJqPrktJ2lzqT_ZKhZb3k_OE2EHw4d-X52LFFEkrtG1wxOZCHxAtGyrjX1yDzocuLEuaTPZySKYYjONkOVyakKaNjTutQUWWCz6ZcbCwWN=s0-d-e1-ft#https://stripe-images.s3.amazonaws.com/emails/invoices_invoice_illustration.png" width="94" height="91" style="border:0;margin:0 auto;padding:0;display:block;border-radius:8px;margin:0 auto" alt="invoice illustration">
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+      <table cellpadding="0" cellspacing="0">
+    <tbody>
+      
+          <tr><td style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+            <a style="border:0;margin:0;padding:0;text-decoration:none;outline:0" href="https://59.email.stripe.com/CL0/https:%2F%2Fpay.stripe.com%2Finvoice%2Facct_1MExQ9BjIQrRQnux%2Flive_YWNjdF8xTUV4UTlCaklRclJRbnV4LF9UNFV3eTdGRWV6ZjJMT3hkdDd5QnRka0JGT1Q4NDBtLDE0ODY2MjQwNQ020000lmnDoW%2Fpdf%3Fs=em/1/010101995836cce6-a147f579-fe4a-41aa-a5c3-a8a78b4997a3-000000/OMikPjM7-5Jc7YjyGBqOm-dLxup0m4OFAp8axdYAGH4=423" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://59.email.stripe.com/CL0/https:%252F%252Fpay.stripe.com%252Finvoice%252Facct_1MExQ9BjIQrRQnux%252Flive_YWNjdF8xTUV4UTlCaklRclJRbnV4LF9UNFV3eTdGRWV6ZjJMT3hkdDd5QnRka0JGT1Q4NDBtLDE0ODY2MjQwNQ020000lmnDoW%252Fpdf%253Fs%3Dem/1/010101995836cce6-a147f579-fe4a-41aa-a5c3-a8a78b4997a3-000000/OMikPjM7-5Jc7YjyGBqOm-dLxup0m4OFAp8axdYAGH4%3D423&amp;source=gmail&amp;ust=1759515314367000&amp;usg=AOvVaw2ybquAmEpeabucvPLpvB6i">
+    <img src="https://ci3.googleusercontent.com/meips/ADKq_NZq-z2EP-cR0pYpiY3JkSPbKsWEdcLj7c0u7WIEMFyzCtYIAUsyX5P4rv6r-wnA6niVBDXZkAb7E9e5t5cLNKPuWHkYE_omiChj-WZgMieFce4Nk8DwyL0NSr8=s0-d-e1-ft#https://stripe-images.s3.amazonaws.com/emails/invoices_arrow_down.png" height="12" width="12" style="border:0;line-height:100%;margin-right:4px">
+    <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#7a7a7a;font-size:14px;line-height:16px;font-weight:500">
+      Download invoice
+    </span>
+  </a>
+          
+  </td>
+          <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:16px;width:16px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+          <td style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+            <a style="border:0;margin:0;padding:0;text-decoration:none;outline:0" href="https://59.email.stripe.com/CL0/https:%2F%2Fdashboard.stripe.com%2Freceipts%2Finvoices%2FCAcQARoXChVhY2N0XzFNRXhROUJqSVFyUlFudXgohZ2rxgYyBgyGeWI2cTovFl0zuuxm1iqs8gsN_L6FSi1lI5PM6xSY9nKxHu11OiuWbBfw4BlYv8Mycz4TDn8%2Fpdf%3Fs=em/1/010101995836cce6-a147f579-fe4a-41aa-a5c3-a8a78b4997a3-000000/hASO3h438617nLCoqtYFh0pPuXBPD3zt4pgpj_LolyM=423" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://59.email.stripe.com/CL0/https:%252F%252Fdashboard.stripe.com%252Freceipts%252Finvoices%252FCAcQARoXChVhY2N0XzFNRXhROUJqSVFyUlFudXgohZ2rxgYyBgyGeWI2cTovFl0zuuxm1iqs8gsN_L6FSi1lI5PM6xSY9nKxHu11OiuWbBfw4BlYv8Mycz4TDn8%252Fpdf%253Fs%3Dem/1/010101995836cce6-a147f579-fe4a-41aa-a5c3-a8a78b4997a3-000000/hASO3h438617nLCoqtYFh0pPuXBPD3zt4pgpj_LolyM%3D423&amp;source=gmail&amp;ust=1759515314367000&amp;usg=AOvVaw1nnBgwKe8_WtEGj7xkY-UE">
+    <img src="https://ci3.googleusercontent.com/meips/ADKq_NZq-z2EP-cR0pYpiY3JkSPbKsWEdcLj7c0u7WIEMFyzCtYIAUsyX5P4rv6r-wnA6niVBDXZkAb7E9e5t5cLNKPuWHkYE_omiChj-WZgMieFce4Nk8DwyL0NSr8=s0-d-e1-ft#https://stripe-images.s3.amazonaws.com/emails/invoices_arrow_down.png" height="12" width="12" style="border:0;line-height:100%;margin-right:4px">
+    <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#7a7a7a;font-size:14px;line-height:16px;font-weight:500">
+      Download receipt
+    </span>
+  </a>
+          
+  </td>
+      
+    </tr></tbody>
+  </table>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="32" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+    <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+        <tr>
+    
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;vertical-align:top;white-space:nowrap">
+    
+      <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#7a7a7a;font-size:14px;line-height:16px">
+        Receipt number
+      </span>
+    
+  </td>
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;width:24px">
+    &nbsp;
+  </td>
+    <td align="right" style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+      <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px">
+          2392-9597-2984
+        </span>
+    
+  </td>
+  
+  </tr>
+
+    <tr>
+    
+    <td colspan="2" height="8" style="border:0;border-collapse:collapse;margin:0;padding:0;height:8px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+      <tr>
+    
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;vertical-align:top;white-space:nowrap">
+    
+      <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#7a7a7a;font-size:14px;line-height:16px">
+        Invoice number
+      </span>
+    
+  </td>
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;width:24px">
+    &nbsp;
+  </td>
+    <td align="right" style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+      <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px">
+        JYMAMBBS-0003
+      </span>
+    
+  </td>
+  
+  </tr>
+
+    <tr>
+    
+    <td colspan="2" height="8" style="border:0;border-collapse:collapse;margin:0;padding:0;height:8px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+        <tr>
+    
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;vertical-align:top;white-space:nowrap">
+    
+      <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#7a7a7a;font-size:14px;line-height:16px">
+        Payment method
+      </span>
+    
+  </td>
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;width:24px">
+    &nbsp;
+  </td>
+    <td align="right" style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+      <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px">
+          <span>
+    <img alt="Mastercard" height="16" src="https://ci3.googleusercontent.com/meips/ADKq_NbZBOEPAeqonUR_-WySEEwRIGpKIcwdGexMiNDi3s2m4gKGTtm5b9TQH_TP37_LqBbg5XzkcKBBuiq0xbpZOojUzUkd152yCH_mqU0WSPY6FFdDkvPftskq4snaQgah6i1iscfC1KbJku-DA0l_=s0-d-e1-ft#https://stripe-images.stripecdn.com/emails/receipt_assets/card/mastercard_v2-dark@2x.png" style="border:0;margin:0;padding:0;vertical-align:text-bottom" width="25">
+  </span>
+  <span>
+    - 1878
+  </span>
+        </span>
+    
+  </td>
+  
+  </tr>
+    
+    </tbody>
+  </table>
+
+
+  
+                
+  </td>
+
+
+                  <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+              
+  </tr>
+            
+    </tbody>
+  </table>
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="24" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+          
+  </td>
+        
+  </tr>
+      
+    </tbody>
+  </table>
+    
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+  
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="20" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+  <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="">
+    
+        
+    <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%;width:482px;border-radius:12px;background-color:#e3e8ee;padding:1px">
+    
+        
+      <table cellpadding="0" cellspacing="0" style="width:100%;background-color:#ffffff;border-radius:12px">
+    <tbody>
+      
+        <tr>
+    
+          <td style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="32" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+            <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+              <tr>
+    
+
+
+                <td style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+                  
+
+    <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+      <tr>
+    
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+        <td nowrap="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+          <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:16px;line-height:20px;font-weight:500;white-space:nowrap">
+            Receipt #2392-9597-2984
+          </span>
+        
+  </td>
+      
+  </tr>
+    
+    </tbody>
+  </table>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="26" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+      <td style="border:0;border-collapse:collapse;margin:0;padding:0">
+    
+        <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#7a7a7a;font-size:13px;line-height:16px;font-weight:500;text-transform:uppercase">
+            Sep 17 – Oct 17, 2025
+        </span>
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="8" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+          <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+  <tr>
+    
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;padding-left:0px">
+    
+
+      <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+        
+        <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px;font-weight:500;word-break:break-word">
+          
+    Max plan - 5x
+  
+        </span>
+      
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="3" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+        
+          <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#999999;font-size:12px;line-height:14px">
+            Qty 1
+          </span>
+        
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+    
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:16px;width:16px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+    <td align="right" style="border:0;border-collapse:collapse;margin:0;padding:0;text-align:right;vertical-align:top">
+    
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="right" nowrap="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+        
+          <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px;font-weight:500;white-space:nowrap">
+              R$550.00
+          </span>
+        
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+    
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+  
+  </tr>
+
+  <tr>
+    
+    <td colspan="5" height="0" style="border:0;border-collapse:collapse;margin:0;padding:0;height:0px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+      <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+      <tr>
+    
+    <td colspan="3" height="16" style="border:0;border-collapse:collapse;margin:0;padding:0;height:16px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+    <tr>
+    
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+      <td height="1" style="border:0;border-collapse:collapse;margin:0;padding:0;height:1px;font-size:1px;background-color:#ebebeb;line-height:1px">
+    
+        &nbsp;
+      
+  </td>
+
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+    
+  </tr>
+
+      <tr>
+    
+    <td colspan="3" height="16" style="border:0;border-collapse:collapse;margin:0;padding:0;height:16px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+  
+    </tbody>
+  </table>
+      <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+  <tr>
+    
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;padding-left:0px">
+    
+
+      <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+        
+        <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px;font-weight:500;word-break:break-word">
+          
+      Total
+      
+        </span>
+      
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+
+    
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:16px;width:16px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+    <td align="right" style="border:0;border-collapse:collapse;margin:0;padding:0;text-align:right;vertical-align:top">
+    
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="right" nowrap="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+        
+          <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px;font-weight:500;white-space:nowrap">
+              R$550.00
+          </span>
+        
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+    
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+  
+  </tr>
+
+  <tr>
+    
+    <td colspan="5" height="0" style="border:0;border-collapse:collapse;margin:0;padding:0;height:0px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+    </tbody>
+  </table>
+      <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+      <tr>
+    
+    <td colspan="3" height="16" style="border:0;border-collapse:collapse;margin:0;padding:0;height:16px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+    <tr>
+    
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+      <td height="1" style="border:0;border-collapse:collapse;margin:0;padding:0;height:1px;font-size:1px;background-color:#ebebeb;line-height:1px">
+    
+        &nbsp;
+      
+  </td>
+
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+    
+  </tr>
+
+      <tr>
+    
+    <td colspan="3" height="16" style="border:0;border-collapse:collapse;margin:0;padding:0;height:16px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+      
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+  <tr>
+    
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;padding-left:0px">
+    
+
+      <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+        
+        <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px;font-weight:500;word-break:break-word">
+          
+          Amount paid
+        
+        </span>
+      
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+
+    
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:16px;width:16px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+    <td align="right" style="border:0;border-collapse:collapse;margin:0;padding:0;text-align:right;vertical-align:top">
+    
+
+        <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td align="right" nowrap="" style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%">
+    
+        
+          <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;color:#1a1a1a;font-size:14px;line-height:16px;font-weight:500;white-space:nowrap">
+              R$550.00
+          </span>
+        
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+    
+  </td>
+
+    <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+  
+  </tr>
+
+  <tr>
+    
+    <td colspan="5" height="0" style="border:0;border-collapse:collapse;margin:0;padding:0;height:0px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+    </tbody>
+  </table>
+
+        
+
+
+
+
+      <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+      <tr>
+    
+    <td colspan="3" height="16" style="border:0;border-collapse:collapse;margin:0;padding:0;height:16px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+
+    <tr>
+    
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+      <td height="1" style="border:0;border-collapse:collapse;margin:0;padding:0;height:1px;font-size:1px;background-color:#ebebeb;line-height:1px">
+    
+        &nbsp;
+      
+  </td>
+
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+    
+  </tr>
+
+      <tr>
+    
+    <td colspan="3" height="20" style="border:0;border-collapse:collapse;margin:0;padding:0;height:20px;font-size:1px;line-height:1px">
+    
+      &nbsp;
+    
+  </td>
+  
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+      <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+
+      <td style="border:0;border-collapse:collapse;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;font-size:14px;line-height:16px;color:#999999">
+    
+
+          Questions? Visit our <a style="border:0;margin:0;padding:0;color:#625afa!important;font-weight:bold;text-decoration:none;white-space:nowrap" href="https://support.anthropic.com/" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://support.anthropic.com/&amp;source=gmail&amp;ust=1759515314368000&amp;usg=AOvVaw2dMlDFY5hjPmhzgl8JMTpX">support site</a>.
+      
+  </td>
+
+        <td style="border:0;border-collapse:collapse;margin:0;padding:0;min-width:32px;width:32px;font-size:1px">
+    
+    &nbsp;
+  
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+  
+                
+  </td>
+
+
+              
+  </tr>
+            
+    </tbody>
+  </table>
+
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="24" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+          
+  </td>
+        
+  </tr>
+      
+    </tbody>
+  </table>
+    
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+  
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td height="32" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px;max-height:1px">
+        <div>&nbsp;</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <table cellpadding="0" cellspacing="0" style="width:100%">
+    <tbody>
+      
+    <tr>
+    
+      <td style="border:0;border-collapse:collapse;margin:0;padding:0;width:100%;text-align:center;color:rgb(0,0,0);opacity:0.5">
+    
+        <span style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Ubuntu,sans-serif;text-decoration:none;font-size:12px;line-height:20px">
+            <p style="border:0;margin:0;padding:0;font-family:-apple-system,'SF Pro Display','SF Pro Text','Helvetica',sans-serif">Powered by 
+                  <a style="border:0;margin:0;padding:0;text-decoration:none;outline:0" href="https://59.email.stripe.com/CL0/https:%2F%2Fstripe.com/1/010101995836cce6-a147f579-fe4a-41aa-a5c3-a8a78b4997a3-000000/fvlVRDUsk5cfjP_jxfDfyjJrU8evNAH8R7i3Snb1tqY=423" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://59.email.stripe.com/CL0/https:%252F%252Fstripe.com/1/010101995836cce6-a147f579-fe4a-41aa-a5c3-a8a78b4997a3-000000/fvlVRDUsk5cfjP_jxfDfyjJrU8evNAH8R7i3Snb1tqY%3D423&amp;source=gmail&amp;ust=1759515314368000&amp;usg=AOvVaw29ldDfClD7wGeyIGZhc20F">
+                    <img src="https://ci3.googleusercontent.com/meips/ADKq_NYFn-YefSObstgZtXPyvHIHk8vDfVNErWEZhOkdzU4FB13Umoz8DXXO9qGtdG4zWnNkDAkWy01Db5pOdo50kYZCeLs2tgupZp_tiuCLLDdTqVYOYBIANLZCJZCURyvS9gc=s0-d-e1-ft#https://stripe-images.s3.amazonaws.com/emails/invoices_stripe_logo_dark.png" height="24" width="51" align="middle" style="border:0;line-height:100%;vertical-align:middle" alt="stripe logo"></a>&nbsp;&nbsp;|&nbsp;&nbsp; <a style="border:0;margin:0;padding:0;text-decoration:none;outline:0;color:rgb(0,0,0)" href="https://59.email.stripe.com/CL0/https:%2F%2Fstripe.com%2Fbilling/1/010101995836cce6-a147f579-fe4a-41aa-a5c3-a8a78b4997a3-000000/GXBaARxcf2laTqxeV7rytB6REVIWJxMS4Ox5SIG1YlE=423" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://59.email.stripe.com/CL0/https:%252F%252Fstripe.com%252Fbilling/1/010101995836cce6-a147f579-fe4a-41aa-a5c3-a8a78b4997a3-000000/GXBaARxcf2laTqxeV7rytB6REVIWJxMS4Ox5SIG1YlE%3D423&amp;source=gmail&amp;ust=1759515314368000&amp;usg=AOvVaw0a6h1faXTSap59ON2sdL7j">Learn more about Stripe Billing</a></p>
+        </span>
+      
+  </td>
+    
+  </tr>
+  
+    </tbody>
+  </table>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+          </td>
+          <td style="font-size:16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="64" colspan="3" style="border:0;margin:0;padding:0;font-size:1px;line-height:1px">
+            <div>&nbsp;</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+
+</div></div></div></div><div id=":1ch" class="n0NzRc"></div><div class="aO8" style="width: 616px; height: 1077px;"></div></div></div></td><td class="Aq">&nbsp;</td></tr></tbody></table></div></div><div id=":19l"></div><div id=":1ab" style="display:none" class="ajR" role="button" tabindex="-1"><div id=":1ac" class="uC"><img class="ajT" src="//ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif"></div></div><div id=":1a5" class="bA3"><div id=":1b8" class="GM" style=""><div><div><div class="dL" tabindex="-1" id=":1hf" aria-label="Anexo: Invoice-JYMAMBBS-0003.pdf. Pressione Enter para ver o anexo e Delete para removê-lo"><input id=":1h8" name="attach" type="hidden" value="#msg-a:r-4100564246756147976_#msg-a:r-4100564246756147976_0.1_-1" checked=""><a class="dO" id=":1h9" href="https://mail.google.com/mail/u/0?ui=2&amp;ik=1458076a78&amp;attid=0.1&amp;permmsgid=msg-f:1843524128132080026&amp;th=1995836d582ca19a&amp;view=att&amp;zw&amp;disp=safe" target="_blank"><div class="vI">Invoice-JYMAMBBS-0003.pdf</div> <div class="vJ">(31K)</div></a> <div id=":1h6" role="button" aria-label="Remover anexo" class="vq" tabindex="-1" data-tooltip="Remover anexo"></div></div></div><div><div class="dL" tabindex="-1" id=":1hq" aria-label="Anexo: Receipt-2392-9597-2984.pdf. Pressione Enter para ver o anexo e Delete para removê-lo"><input id=":1hj" name="attach" type="hidden" value="#msg-a:r-4100564246756147976_#msg-a:r-4100564246756147976_0.2_-1" checked=""><a class="dO" id=":1hk" href="https://mail.google.com/mail/u/0?ui=2&amp;ik=1458076a78&amp;attid=0.2&amp;permmsgid=msg-f:1843524128132080026&amp;th=1995836d582ca19a&amp;view=att&amp;zw&amp;disp=safe" target="_blank"><div class="vI">Receipt-2392-9597-2984.pdf</div> <div class="vJ">(31K)</div></a> <div id=":1hh" role="button" aria-label="Remover anexo" class="vq" tabindex="-1" data-tooltip="Remover anexo"></div></div></div></div></div><div id=":19t"></div><div id=":1a2" style="height: 0px;"></div></div></div></div></td></tr><tr><td class="HE"><div id=":18c" class="aC2" style="height: 43px; display: none;"></div><div id=":18e" class="aDg"><div id=":1a1" class="aDj" style=""><div id=":1al" class="aC5"><div style="display: none;"><div id=":1hx" class="aBt"><div id=":1hv" class="aBq aiL" style="width: 614px;"><div id=":1hw" class="aBs" style="width: 616px;"></div></div><div class="aBr"></div></div></div></div><div id=":17v" class="aDl"><div id=":1aa" class="nc"></div><div id=":17u" class="Ur"><div class="aX" style="display: none;"><div id=":1gb" class="aZ"><div class="J-Z" id=":1ga" role="toolbar" aria-label="Opções de formatação" style="user-select: none;"><div id=":1gl" class="J-Z-I J-J5-Ji" command="+undo" data-tooltip="Desfazer ‪(Ctrl-Z)‬" aria-label="Desfazer ‪(Ctrl-Z)‬" jslog="162204; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="te  aaA aaB" style="user-select: none;"> </div></div></div></div><div id=":1gm" class="J-Z-I J-J5-Ji" command="+redo" data-tooltip="Refazer ‪(Ctrl-Y)‬" aria-label="Refazer ‪(Ctrl-Y)‬" jslog="162205; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="sV  aaA aaB" style="user-select: none;"> </div></div></div></div><div class="J-Z-axR J-J5-Ji" style="user-select: none;"></div><div id=":1gn" class="J-Z-axO J-Z-M-I aOz J-J5-Ji" command="+fontName" data-tooltip="Fonte ‪(Ctrl-Shift-5, Ctrl-Shift-6)‬" aria-label="Fonte ‪(Ctrl-Shift-5, Ctrl-Shift-6)‬" jslog="155686; u014N:cOuCgd,Kr2w4b,xr6bB" role="listbox" aria-activedescendant=":1i8" aria-expanded="false" aria-haspopup="true" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-J6-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Jm" id=":1i8" role="option" aria-selected="true" style="user-select: none;">Sans Serif</div><div class="J-J5-Ji J-Z-M-I-JG" style="user-select: none;"> </div></div></div></div><div class="J-Z-axR J-J5-Ji" style="user-select: none;"></div><div id=":1go" class="J-Z-M-I J-J5-Ji" command="+fontSize" data-tooltip="Tamanho ‪(Ctrl-Shift--, Ctrl-Shift-+)‬" aria-label="Tamanho ‪(Ctrl-Shift--, Ctrl-Shift-+)‬" jslog="162207; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" aria-expanded="false" aria-haspopup="true" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-J6-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Jm" style="user-select: none;"><div class="eY  aaA aaB" style="user-select: none;"> </div></div><div class="J-J5-Ji J-Z-M-I-JG" style="user-select: none;"> </div></div></div></div><div class="J-Z-axR J-J5-Ji" style="user-select: none;"></div><div id=":1gp" class="J-Z-aEu-I J-Z-I J-J5-Ji" command="+bold" data-tooltip="Negrito ‪(Ctrl-B)‬" aria-label="Negrito ‪(Ctrl-B)‬" jslog="155682; u014N:cOuCgd,Kr2w4b,xr6bB" aria-pressed="false" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="eN  aaA aaB" style="user-select: none;"> </div></div></div></div><div id=":1gq" class="J-Z-aEu-I J-Z-I J-J5-Ji" command="+italic" data-tooltip="Itálico ‪(Ctrl-I)‬" aria-label="Itálico ‪(Ctrl-I)‬" jslog="155687; u014N:cOuCgd,Kr2w4b,xr6bB" aria-pressed="false" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="e3  aaA aaB" style="user-select: none;"> </div></div></div></div><div id=":1gr" class="J-Z-aEu-I J-Z-I J-J5-Ji" command="+underline" data-tooltip="Sublinhar ‪(Ctrl-U)‬" aria-label="Sublinhar ‪(Ctrl-U)‬" jslog="155690; u014N:cOuCgd,Kr2w4b,xr6bB" aria-pressed="false" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="fu  aaA aaB" style="user-select: none;"> </div></div></div></div><div id=":1gs" class="J-Z-M-I J-J5-Ji" command="+foreColor" data-tooltip="Cor do texto" aria-label="Cor do texto" jslog="162208; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" aria-expanded="false" aria-haspopup="true" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-J6-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Jm" style="user-select: none;"><div class="eS  aaA aaB" style="user-select: none;"> </div></div><div class="J-J5-Ji J-Z-M-I-JG" style="user-select: none;"> </div></div></div></div><div class="J-Z-axR J-J5-Ji" style="user-select: none;"></div><div id=":1gt" class="J-Z-M-I J-J5-Ji" command="alignMenu" data-tooltip="Alinhar" aria-label="Alinhar" jslog="162209; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" aria-expanded="false" aria-haspopup="false" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-J6-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Jm" style="user-select: none;"><div class="aaA aaB e4" style="user-select: none;"> </div></div><div class="J-J5-Ji J-Z-M-I-JG" style="user-select: none;"> </div></div></div></div><div id=":1gu" class="J-Z-aEu-I J-Z-I J-J5-Ji" command="+insertOrderedList" data-tooltip="Lista numerada ‪(Ctrl-Shift-7)‬" aria-label="Lista numerada ‪(Ctrl-Shift-7)‬" jslog="162216; u014N:cOuCgd,Kr2w4b,xr6bB" aria-pressed="false" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="e6  aaA aaB" style="user-select: none;"> </div></div></div></div><div id=":1gv" class="J-Z-aEu-I J-Z-I J-J5-Ji" command="+insertUnorderedList" data-tooltip="Lista com marcadores ‪(Ctrl-Shift-8)‬" aria-label="Lista com marcadores ‪(Ctrl-Shift-8)‬" jslog="155683; u014N:cOuCgd,Kr2w4b,xr6bB" aria-pressed="false" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="eO  aaA aaB" style="user-select: none;"> </div></div></div></div><div id=":1gw" class="J-Z-I J-J5-Ji" command="+outdent" data-tooltip="Menor tabulação ‪(Ctrl-[)‬" aria-label="Menor tabulação ‪(Ctrl-[)‬" jslog="162211; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="e8  aaA aaB" style="user-select: none;"> </div></div></div></div><div id=":1gx" class="J-Z-I J-J5-Ji" command="+indent" data-tooltip="Maior tabulação ‪(Ctrl-])‬" aria-label="Maior tabulação ‪(Ctrl-])‬" jslog="162210; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="e2  aaA aaB" style="user-select: none;"> </div></div></div></div><div id=":1gy" class="J-Z-I J-J5-Ji" command="+BLOCKQUOTE" data-tooltip="Citação ‪(Ctrl-Shift-9)‬" aria-label="Citação ‪(Ctrl-Shift-9)‬" jslog="162206; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="fa  aaA aaB" style="user-select: none;"> </div></div></div></div><div class="J-Z-axR J-J5-Ji" style="user-select: none;"></div><div id=":1gz" class="J-Z-aEu-I J-Z-I J-J5-Ji" command="+strikeThrough" data-tooltip="Tachado ‪(Alt-Shift-5)‬" aria-label="Tachado ‪(Alt-Shift-5)‬" jslog="155688; u014N:cOuCgd,Kr2w4b,xr6bB" aria-pressed="false" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="td  aaA aaB" style="user-select: none;"> </div></div></div></div><div class="J-Z-axR J-J5-Ji" style="user-select: none;"></div><div id=":1h0" class="J-Z-I J-J5-Ji" command="+removeFormat" data-tooltip="Remover formatação ‪(Ctrl-\)‬" aria-label="Remover formatação ‪(Ctrl-\)‬" jslog="155684; u014N:cOuCgd,Kr2w4b,xr6bB" role="button" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="fb  aaA aaB" style="user-select: none;"> </div></div></div></div><div class="J-Z-axR J-J5-Ji" style="user-select: none;"></div><div id=":1h1" class="J-Z-M-I J-J5-Ji" command="moreMenu" data-tooltip="Mais opções de formatação" aria-label="Mais opções de formatação" role="button" aria-expanded="false" aria-haspopup="false" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-J6-H" style="user-select: none;"><div class="J-J5-Ji J-Z-M-I-Jm" style="user-select: none;"><div class="Y1 aUI  aaA aaB" style="user-select: none;"> </div></div><div class="J-J5-Ji J-Z-M-I-JG" style="user-select: none;"> </div></div></div></div></div><div class="J-Z aA3" id=":1gc" style="display:none"><span>Atualmente no modo de texto simples.</span> <span class="aA5" id=":1gd" role="link">Mudar para formatação em rich text.</span></div><div id=":1gk" class="aA4"></div></div></div></div><span id=":1b7" class="eq"></span></div><div id=":187" class="aDx"><div class="aDu" style="display: none;"><div id=":1ff.ckd" style="display: none; user-select: none;" class="hL" aria-label="Spell Check" role="toolbar"><div id=":1ff.rc" class="T-I J-J5-Ji aDs T-I-Js-IF T-I-ax7 L3" role="button" tabindex="1" style="user-select: none;">Verificar novamente</div><div id=":1ff.ln" class="T-I J-J5-Ji aDt T-I-Js-IF T-I-Js-Gs hK T-I-ax7 L3" role="button" tabindex="1" aria-label="Idioma" aria-expanded="false" aria-haspopup="true" style="user-select: none;"><img class="aDy T-I-J3" src="images/cleardot.gif" alt="" style="user-select: none;"></div><div id=":1ff.c" class="T-I J-J5-Ji aDt T-I-Js-Gs aDo hJ T-I-ax7 L3" role="button" tabindex="1" aria-label="Fechar a verificação ortográfica" style="user-select: none;"><img class="aDw T-I-J3" src="images/cleardot.gif" alt="" style="user-select: none;"></div></div><div id=":1ff.ckg" class="aDv">Verificando...</div></div></div><div class="aDh"><div id=":18z" class="U6Cexb"></div><div id=":188" class="UpwQGb"></div><div id=":1d4" class="ac4" style="display:none" aria-live="polite"></div><div id=":1d2" class="ac4" style="display:none" aria-live="polite"></div><div id=":1d0" class="ac4" style="display:none" aria-live="polite"></div><div id=":1cz" class="ac4" style="display:none" aria-live="polite"></div><div id=":1cy" class="ac4" style="display:none" aria-live="polite"></div><div id=":1cx" class="ac4" style="display:none" aria-live="polite"></div><div id=":1cw" class="ac4" style="display:none" aria-live="polite"></div><div id=":1co" class="ac4" style="display:none" aria-live="polite"></div><div id=":1cn" class="ac4" style="display:none" aria-live="polite"></div><div class="br9" jslog="177573; u014N:xr6bB;" jsaction="Bgoizf:.CLIENT;ycjtbf:.CLIENT;csREwc:.CLIENT;wqQPkd:.CLIENT;C3ZtCb:.CLIENT;zGU7Ce:.CLIENT"></div><table id=":18h" class="IZ" role="group" jslog="177572; u014N:xr6bB;"><colgroup><col id=":18g"><col class="Uf"><col class="UA"><col class="Uy"><col class="az8"><col id=":1ak"></colgroup><tbody><tr class="btC"><td class="gU Up"><div id=":1b0" class="J-J5-Ji btA"><div id=":19p" class="J-J5-Ji"></div><div class="dC"><div id=":18f" class="T-I J-J5-Ji aoO v7 T-I-atl L3" role="button" tabindex="1" data-tooltip="Enviar" aria-label="Enviar" data-tooltip-delay="800" style="user-select: none;" jslog="32601; u014N:xr6bB,cOuCgd,Kr2w4b; dYFj7e:true; 11:WyIjbXNnLWE6ci00MTAwNTY0MjQ2NzU2MTQ3OTc2IiwiI21zZy1mOjE4NDM1MjQxMjgxMzIwODAwMjYiLG51bGwsbnVsbCw0LDEzOTEwOTUyMzksWyIjdGhyZWFkLWY6MTg0MzUyNDEyODEzMjA4MDAyNiJdLDAsbnVsbCxudWxsLDAsbnVsbCxudWxsLDAsbnVsbCxbWyJhcHBsaWNhdGlvbi9wZGYiLDMxNTY3LDBdLFsiYXBwbGljYXRpb24vcGRmIiwzMTE5NCwwXV1d">Enviar</div><div id=":18j" class="T-I J-J5-Ji hG T-I-atl L3" role="button" tabindex="1" aria-label="Mais opções de envio" data-tooltip="Mais opções de envio" data-tooltip-delay="800" aria-expanded="false" aria-haspopup="true" style="user-select: none;"><div class="G-asx"></div></div></div><div id=":19o" class="J-J5-Ji"></div></div></td><td id=":1a3" class="oc gU"><div data-tooltip="Opções de formatação" aria-label="Opções de formatação"><div id=":1ca" class="J-Z-I J-J5-Ji" role="button" aria-pressed="false" aria-haspopup="true" aria-expanded="false" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H"><div class="J-J5-Ji J-Z-I-J6-H"><div class="dv"><div class="a3I">&nbsp;</div></div></div></div></div></div></td><td class="gU btB"><div class="Uz" aria-hidden="true"></div></td><td id=":1a9" class="a8X gU"><div class="bAK" style="user-select: none; position: relative;"><div class="wG J-Z-I bDl eLNZDd" command="sdt" data-tooltip="Quero ajuda para escrever (Alt + H)" aria-label="Quero ajuda para escrever (Alt + H)" tabindex="1" id=":1c8" role="button" aria-haspopup="true" aria-expanded="false" jslog="173166; u014N:xr6bB" jsaction="uJ8oc:.CLIENT;utQure:.CLIENT;tkRwsc:.CLIENT" aria-disabled="false" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1c9" class="brJ aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><div class="wG J-Z-I" command="Files" data-tooltip="Anexar arquivos" aria-label="Anexar arquivos" tabindex="1" id=":1c6" role="button" aria-haspopup="true" aria-expanded="false" jslog="56742; u014N:xr6bB,cOuCgd,Kr2w4b" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1c7" class="a1 aaA aMZ aF2" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><input type="file" name="Filedata" multiple="" aria-hidden="true" tabindex="-1" style="position: absolute; overflow: hidden; height: 20px; width: 20px; opacity: 0; left: 32px; top: 4px; display: none;"><div class="wG J-Z-I" command="+link" data-tooltip="Inserir link ‪(Ctrl-K)‬" aria-label="Inserir link ‪(Ctrl-K)‬" tabindex="1" id=":1c4" role="button" aria-haspopup="true" aria-expanded="false" jslog="159835; u014N:xr6bB,cOuCgd,Kr2w4b" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1c5" class="e5 aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><div class="wG J-Z-I" command="+emoticon" data-tooltip="Inserir emoji ‪(Ctrl-Shift-2)‬" aria-label="Inserir emoji ‪(Ctrl-Shift-2)‬" tabindex="1" id=":1c0" role="button" aria-haspopup="true" aria-expanded="false" jslog="130723; u014N:xr6bB,cOuCgd,Kr2w4b" aria-disabled="false" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1c1" class="QT aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><div class="wG J-Z-I" command="docs" data-tooltip="Inserir arquivos com o Google Drive" aria-label="Inserir arquivos com o Google Drive" tabindex="1" id=":1by" role="button" aria-haspopup="true" aria-expanded="false" jslog="85877; u014N:xr6bB,cOuCgd,Kr2w4b" aria-disabled="false" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1bz" class="aA7 aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><div class="wG J-Z-I" command="image" data-tooltip="Inserir foto" aria-label="Inserir foto" tabindex="1" id=":1bw" role="button" aria-haspopup="true" aria-expanded="false" jslog="160524; u014N:xr6bB,cOuCgd,Kr2w4b" aria-disabled="false" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1bx" class="a2X aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><div class="wG J-Z-I" command="locker" data-tooltip="Alternar modo confidencial" aria-label="Alternar modo confidencial" tabindex="1" id=":1bu" role="button" aria-haspopup="true" aria-expanded="false" jslog="155500; u014N:xr6bB,cOuCgd,Kr2w4b" style="user-select: none;" aria-disabled="false"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1bv" class="buc aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><div class="wG J-Z-I" command="signature" data-tooltip="Inserir assinatura" aria-label="Inserir assinatura" tabindex="1" id=":1bs" role="button" aria-haspopup="true" aria-expanded="false" jslog="79419; u014N:xr6bB,cOuCgd,Kr2w4b" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1bt" class="BP aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><div class="wG J-Z-I" command="template" data-tooltip="Selecionar um layout" aria-label="Selecionar um layout" tabindex="1" id=":1fg" role="button" aria-haspopup="true" aria-expanded="false" jslog="122000; u014N:xr6bB,cOuCgd,Kr2w4b" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1br" class="anH aM2 aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div><div class="wG J-Z-I" command="calendaractions" data-tooltip="Defina um horário para a reunião" aria-label="Defina um horário para a reunião" tabindex="1" id=":1fi" role="button" aria-haspopup="true" aria-expanded="false" jslog="160798; u014N:cOuCgd,Kr2w4b,xr6bB; dYFj7e:true; 80:W251bGwsbnVsbCwwXQ.." aria-disabled="false" style="user-select: none;"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div id=":1fh" class="mYVwse aM2 aaA aMZ" style="user-select: none;"><div class="a3I" style="user-select: none;">&nbsp;</div></div></div></div></div></div></td><td id=":19r" class="gU aYL"><div class="J-J5-Ji a0A"></div><div id=":1fr" class="J-JN-M-I J-J5-Ji Xv L3 T-I-ax7 T-I" jslog="147027; u014N:cOuCgd,Kr2w4b,xr6bB;" role="button" tabindex="1" aria-haspopup="true" aria-expanded="false" data-tooltip="Mais opções" aria-label="Mais opções" style="user-select: none;"><div class="J-J5-Ji J-JN-M-I-Jm"><img class="Y1" src="images/cleardot.gif" alt=""><div class="a3I">&nbsp;</div></div><div class="J-J5-Ji J-JN-M-I-JG"></div></div></td><td id=":1am" class="gU a0z"><div class="J-J5-Ji bty"><div id=":1an" class="oh J-Z-I J-J5-Ji T-I-ax7 T-I" tabindex="1" role="button" data-tooltip="Descartar rascunho ‪(Ctrl-Shift-D)‬" aria-label="Descartar rascunho ‪(Ctrl-Shift-D)‬" style="user-select: none;" jslog="56744; u014N:xr6bB,cOuCgd,Kr2w4b; dYFj7e:true; 11:WyIjbXNnLWE6ci00MTAwNTY0MjQ2NzU2MTQ3OTc2IiwiI21zZy1mOjE4NDM1MjQxMjgxMzIwODAwMjYiLG51bGwsbnVsbCw0LDEzOTEwOTUyMzksWyIjdGhyZWFkLWY6MTg0MzUyNDEyODEzMjA4MDAyNiJdLDAsbnVsbCxudWxsLDAsbnVsbCxudWxsLDAsbnVsbCxbWyJhcHBsaWNhdGlvbi9wZGYiLDMxNTY3LDBdLFsiYXBwbGljYXRpb24vcGRmIiwzMTE5NCwwXV1d"><div class="J-J5-Ji J-Z-I-Kv-H" style="user-select: none;"><div class="J-J5-Ji J-Z-I-J6-H" style="user-select: none;"><div class="og T-I-J3" style="user-select: none;"></div></div></div></div></div></td></tr></tbody></table><div tabindex="1" style="background-color: transparent; width: 1px; height: 0px; position: absolute;"></div></div><div id=":18d" class="aC3" style="height: 12px; display: none;"></div></div><div id=":18b" class="aC4"></div></div></td></tr></tbody></table></td>

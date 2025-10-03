@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+# Docker Compose para versão refatorada
+# Otimizado para produção com Design Patterns
+
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: recibos-automation
+    ports:
+      - "5000:5000"
+    environment:
+      # Configurações do Flask
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+      - FLASK_HOST=0.0.0.0
+      - FLASK_PORT=5000
+      
+      # Configurações do banco de dados
+      - DATABASE_URL=sqlite:////app/data/app.db
+      
+      # Configurações do Google
+      - GOOGLE_CREDENTIALS_JSON=/app/credentials/credentials_real.json
+      - GMAIL_DELEGATED_USER=${GMAIL_DELEGATED_USER}
+      - GMAIL_MONITORED_EMAIL=${GMAIL_MONITORED_EMAIL}
+      
+      # Configurações de email
+      - SMTP_HOST=${SMTP_HOST:-smtp.gmail.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USE_TLS=${SMTP_USE_TLS:-true}
+      - SMTP_USERNAME=${SMTP_USERNAME}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - EMAIL_FROM=${EMAIL_FROM}
+      - REPORTS_EMAIL=${REPORTS_EMAIL}
+      - TEST_EMAIL=${TEST_EMAIL}
+      
+      # Configurações de APIs
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ZELLO_API_KEY=${ZELLO_API_KEY}
+      
+      # Configurações de logging
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - LOG_FILE=/app/logs/app.log
+      
+      # Configurações de processamento
+      - MAX_RECEIPTS_PER_RUN=${MAX_RECEIPTS_PER_RUN:-500}
+      - RECEIPT_CONFIDENCE_THRESHOLD=${RECEIPT_CONFIDENCE_THRESHOLD:-0.7}
+      
+      # Configurações de upload
+      - UPLOAD_FOLDER=/app/uploads
+      - MAX_CONTENT_LENGTH=${MAX_CONTENT_LENGTH:-16777216}
+    
+    volumes:
+      # Dados persistentes
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./uploads:/app/uploads
+      
+      # Credenciais (read-only)
+      - ./credentials:/app/credentials:ro
+      - ./tokens:/app/tokens
+      
+      # Para desenvolvimento (comentar em produção)
+      # - .:/app
+    
+    restart: unless-stopped
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    
+    networks:
+      - recibos_net
+    
+    # Limites de recursos (opcional)
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: '0.5'
+        reservations:
+          memory: 512M
+          cpus: '0.25'
+
+  # Serviço opcional para monitoramento
+  nginx:
+    image: nginx:alpine
+    container_name: recibos-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - app
+    restart: unless-stopped
+    networks:
+      - recibos_net
+    profiles:
+      - production
+
+networks:
+  recibos_net:
+    driver: bridge
+    name: recibos_automation_network
+
+# Volumes nomeados para persistência
+volumes:
+  data_volume:
+    driver: local
+    name: recibos_data
+  logs_volume:
+    driver: local
+    name: recibos_logs

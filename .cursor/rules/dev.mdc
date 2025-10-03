@@ -1,0 +1,31 @@
+---
+description:
+Este é um projeto de automação de recibos baseado no HU Automation da Zello.
+
+ESTRUTURA DO PROJETO:
+- services/ - Serviços (LLM, Email, Gmail, etc.)
+- models/ - Modelos SQLAlchemy 
+- prompts/ - Templates de prompts
+- migrations/ - Migrações Alembic
+
+COMPONENTES PRINCIPAIS:
+- Zello MIND como LLM principal (fallback OpenAI)
+- Gmail API para monitoramento de emails
+- Sistema de jobs com auto-correção
+- Processamento de recibos de IA (OpenAI, Anthropic, Cursor, Manus, n8n)
+
+PADRÕES OBRIGATÓRIOS:
+- Manter compatibilidade com código existente do HU Automation
+- Usar SessionLocal para banco de dados
+- Sistema de gerador + validador para extrações
+- Logging detalhado em todas as operações
+- Tratamento robusto de erros
+
+EMAILS CONFIGURADOS:
+- Monitoramento: iazello@zello.tec.br
+- Relatórios: contasapagar@zello.tec.br
+
+Sempre que adaptar código, mantenha a estrutura e padrões existentes.
+globs:
+alwaysApply: true
+---
