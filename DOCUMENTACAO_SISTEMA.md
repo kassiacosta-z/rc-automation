@@ -9,7 +9,7 @@ Sistema automatizado para monitoramento e encaminhamento de recibos de provedore
 **✅ SISTEMA 100% FUNCIONAL E TESTADO**
 
 ### Última Execução Bem-Sucedida
-- **Data**: Janeiro 2025
+- **Data**: Outubro 2025
 - **Resultado**: ✅ SUCESSO TOTAL
 - **Recibos processados**: 1 (Anthropic)
 - **Emails encontrados**: 100
@@ -58,9 +58,9 @@ graph TD
 ### Credenciais
 ```python
 # cli_selenium_scan.py
-self.email = "iazello@zello.tec.br"
-self.password = "@Zello2025"
-self.forward_to = "contasapagar@zello.tec.br"
+self.email = "x"
+self.password = "x"
+self.forward_to = "x"
 ```
 
 ### Provedores Monitorados
