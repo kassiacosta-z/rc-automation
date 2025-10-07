@@ -25,10 +25,10 @@
 #### **1. Login Automático**
 ```
 ✅ Campo de email encontrado: input[type='email']
-✅ Email preenchido: iazello@zello.tec.br
+✅ Email preenchido: x
 ✅ Botão 'Próximo' clicado
 ✅ Campo de senha encontrado: input[type='password']
-✅ Senha preenchida: @Zello2025
+✅ Senha preenchida: x
 ✅ Login bem-sucedido ou inbox carregada
 ```
 
